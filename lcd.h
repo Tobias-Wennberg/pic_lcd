@@ -48,11 +48,6 @@ extern "C" {
 #define LCD_1LINE 0x00
 #define LCD_5x8DOTS 0x00
 
-    
-#define D0 lcd_D0_LAT
-#define D1 lcd_D1_LAT
-#define D2 lcd_D2_LAT
-#define D3 lcd_D3_LAT
 #define D4 lcd_D4_LAT
 #define D5 lcd_D5_LAT
 #define D6 lcd_D6_LAT
