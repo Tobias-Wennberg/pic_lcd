@@ -1,5 +1,5 @@
 
-#include "colLCD.h"
+#include "lcd.h"
 
 static uint8_t displayFunction = 0x00;
 static uint8_t displayMode = 0x00;
@@ -66,8 +66,8 @@ void lcd_init()
     cmdDubbel(displayFunction | LCD_FUNCTIONSET);
     //cmd(displayFunction);
     
-    //Ingen aning varför cmd(0x00) behöver vara på båda sidor men de gör de
-    // De är inte där i arduinos bibliotek
+    //Ingen aning varfÃ¶r cmd(0x00) behÃ¶ver vara pÃ¥ bÃ¥da sidor men de gÃ¶r de
+    // De Ã¤r inte dÃ¤r i arduinos bibliotek
     displayControl = 
         LCD_DISPLAYON   | 
         LCD_CURSORON    |
